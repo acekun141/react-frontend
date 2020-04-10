@@ -1,0 +1,85 @@
+.sign-page {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    .left-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        .title {
+            font-size: 3em;
+            font-weight: bold;
+            color: black;
+        }
+    }
+    .right-page {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        .signup-form {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            .wrap {
+                margin-bottom: 10px;
+                label {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 1em;
+                    font-weight: bold;
+                    color: blue;
+                    input {
+                        height: 50px;
+                        padding: 0 15px;
+                        border-radius: 4px;
+                        outline: none;
+                        font-size: 1em;
+                        border: 1px solid #aaa;
+                        margin-top: 5px;
+                    }
+                }
+            }
+            .wrap-fullname {
+                display: flex;
+                label {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: stretch;
+                    flex: 1;
+                    color: blue;
+                    font-weight: bold;
+                    &:first-child {
+                        margin-right: 5px;
+                    }
+                    &:last-child {
+                        margin-left: 5px;
+                    }
+                    input {
+                        padding: 0 15px;
+                        font-size: 1em;
+                        height: 50px;
+                    }
+                }
+            }
+            .form-button {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: blue;
+                button {
+                    padding: 10px 15px;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 1em;
+                    background-color: blue;
+                    outline: none;
+                    border: none;
+                    border-radius: 4px;
+                }
+            }
+        }
+        
+    }
+}

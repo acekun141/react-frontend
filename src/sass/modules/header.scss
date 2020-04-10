@@ -1,0 +1,64 @@
+@import '../variables';
+
+.header {
+    padding: 0 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: sticky;
+    top: 0;
+    .logo {
+        display: flex;
+        align-items: center;
+        .logo-icon {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: black;
+        }
+    }
+    .nav {
+        display: flex;
+        .search {
+            display: flex;
+            padding: 15px 0;
+            input {
+                height: 30px;
+                font-size: 13px;
+                border: 1px solid #aaa;
+                outline: none;
+                border-radius: 8px;
+                padding: 0 15px;
+            }
+        }
+        .avatar {
+            display: flex;
+            align-items: center;
+            margin-left: 15px;
+            img {
+                height: 30px;
+                width: 30px;
+                border-radius: 50%;
+            }
+        }
+        .button-logout {
+            display: block;
+            color: white;
+            font-weight: bold;
+            margin-left: 15px;
+            display: flex;
+            align-items: center;
+            button {
+                background-color: gray;
+                color: white;
+                font-weight: bold;
+                padding: 0 15px;
+                height: 30px;
+                border-radius: 15px;
+                border: none;
+                outline: none;
+            }
+        }
+    }
+}

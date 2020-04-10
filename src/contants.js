@@ -1,0 +1,2 @@
+export const AVATAR = 'https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/69805046_991917030979058_4702335928889245696_n.jpg?_nc_cat=109&_nc_sid=09cbfe&_nc_ohc=0FN7JPulOBEAX84D9V3&_nc_ht=scontent.fhan5-7.fna&oh=3a7b3a238475eb32a9b4b9f194f10eb1&oe=5EB05AD8'
+export const BACKGROUND = 'https://scontent.fhan5-2.fna.fbcdn.net/v/t1.0-9/40936009_777643749073055_5507836412231155712_n.jpg?_nc_cat=101&_nc_sid=e3f864&_nc_ohc=9IyI527L--oAX8-Wtf0&_nc_ht=scontent.fhan5-2.fna&oh=7224cf288690dcf544868e5d8ded4c0c&oe=5EB00C60'

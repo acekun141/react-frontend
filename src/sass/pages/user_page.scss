@@ -1,0 +1,121 @@
+.page-user {
+    .page-header {
+        max-width: 970px;
+        margin: 0 auto;
+        .user-background {
+            width: 100%;
+            height: 350px;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        .user-info {
+            display: flex;
+            margin-top: -150px;
+            flex-direction: column;
+            align-items: center;
+            .avatar {
+                width: 200px;
+                height: 200px;
+                padding: 5px;
+                background-color: white;
+                border-radius: 50%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+            .user-name {
+                font-size: 2em;
+                font-weight: bold;
+            }
+            .user-second-name {
+                color: #bfbfbf;
+                font-style: italic;
+                font-weight: bold;
+            }
+        }
+    }
+    .page-content {
+        max-width: 750px;
+        margin: 50px auto;
+        .add-new {
+            color: blue;
+            font-weight: bold;
+            background-color: unset;
+            border: none;
+            outline: none;
+            margin: auto;
+            display: block;
+            font-size: 1em;
+            margin-bottom: 15px;
+        }
+        .todo {
+            background-color: white;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            padding-top: 5px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+            &:before {
+                content: '';
+                position: absolute;
+                height: 5px;
+                width: 100%;
+                top: 0;
+                left: 0;
+            }
+            &.true {
+                &:before {
+                    background-color: green;   
+                }
+            }
+            &.false {
+                &:before {
+                    background-color: red;   
+                }
+            }
+            .name {
+                padding: 10px;
+                font-weight: bold;
+            }
+            .todo-created {
+                font-size: 12px;
+                padding: 10px;
+            }
+            .todo-button {
+                padding: 10px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-top: 1px solid #ddd;
+                .is_complete {
+                    background-color: unset;
+                    border: none;
+                    outline: none;
+                    font-size: 13px;
+                    &.true {
+                        color: green;
+                    }
+                    &.false {
+                        color: red;
+                    }
+                }
+                .show {
+                    background-color: blue;
+                    color: white;
+                    padding: 10px 10px;
+                    font-size: 1em;
+                    font-weight: bold;
+                    border: none;
+                    outline: none;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
